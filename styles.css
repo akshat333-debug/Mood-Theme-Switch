@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.buttons {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.display {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Mood Themes */
+
+.happy {
+  background-color: #ffeb85;
+  color: #885200;
+}
+
+.calm {
+  background-color: #a8d8ff;
+  color: #004b75;
+}
+
+.energetic {
+  background-color: #ff8a8a;
+  color: #720000;
+}
+
+.sad {
+  background-color: #c6c6c6;
+  color: #3f3f3f;
+}
